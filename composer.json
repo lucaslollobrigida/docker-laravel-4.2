@@ -4,7 +4,14 @@
 	"keywords": ["framework", "laravel"],
 	"license": "MIT",
 	"require": {
-		"laravel/framework": "4.2.*"
+		"barryvdh/laravel-debugbar": "1.8.7",
+		"laravel/framework": "4.2.*",
+		"intervention/image": "1.*",
+		"anouar/fpdf": "dev-master",
+		"phpoffice/phpexcel": "dev-develop",
+		"league/color-extractor":"0.1.*",
+		"pda/pheanstalk": "~2.0",
+		"yajra/laravel-datatables-oracle": "~3.0"
 	},
 	"autoload": {
 		"classmap": [
